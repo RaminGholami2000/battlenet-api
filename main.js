@@ -1,0 +1,15 @@
+import Menu from "./public/menu/menu";
+import Header from "./public/header/header";
+import Logo from "./public/logo/logo";
+import Recomen from "./public/recomended/recomen";
+import Slider from "./public/slider/slider";
+import Feat from "./public/Feat/feat";
+import Trend from "./public/trend/trend";
+Menu();
+Header();
+Logo();
+Recomen();
+Slider();
+Feat();
+Trend();
+console.log(document.querySelector("div.karim"));

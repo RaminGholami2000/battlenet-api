@@ -1,0 +1,21 @@
+{
+  "name": "battlenet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "json-server": "^0.17.4",
+    "mdb-ui-kit": "^6.4.2",
+    "swiper": "^11.0.5"
+  }
+}
